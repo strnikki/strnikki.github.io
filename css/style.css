@@ -20,7 +20,11 @@ hr {
   padding-left: 2rem;
 }
 
-#p-home:before {
+.img-responsive {
+  width: 100%;
+}
+
+#p-home:before {  /* Fix for the navbar taking part of the text */
   display: block;
   height: 7rem;   /* equal to the header height */
   margin-top: -7rem;  /* negative margin equal to the header height */
@@ -111,7 +115,9 @@ ul.social {
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
-
+  .img-responsive {
+    width: 88%;
+  }
 }
 /* Devices under 768px (md) */
 @media (max-width: 767.98px) {
@@ -120,6 +126,9 @@ ul.social {
   }
   .home-text {
     font-size: 1.5rem;
+  }
+  .img-responsive {
+    width: 100%;
   }
 }
 
