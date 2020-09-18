@@ -90,17 +90,12 @@ ul.social {
   color: #333;
 }
 
-.fa-linkedin {
-  color: #2867b2;
-}
-
-.fa-twitter {
-  color: #00aced;
+.fa-envelope {
+  color: #333;
 }
 
 .fa-github:hover,
-.fa-linkedin:hover,
-.fa-twitter:hover {
+.fa-envelope:hover {
   cursor: pointer;
   color: #d5d5d5;
 }
