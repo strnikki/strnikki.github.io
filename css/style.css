@@ -110,6 +110,18 @@ ul.social {
   font-size: 4.5rem;
 }
 
+.fa-chevron-left {
+  color: #616971;
+}
+
+.fa-chevron-right {
+  color: #616971;
+}
+
+.carousel-indicators li{
+  background-color: #616971;
+}
+
 
 /*============= MEDIA QUERIES =============*/
 
