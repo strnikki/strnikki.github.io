@@ -9,6 +9,25 @@ hr {
   width: 95%;
 }
 
+.language-select {
+  list-style: none;
+  display: flex;
+}
+
+.language-select li {
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+.language-select li a {
+  text-decoration: none;
+  color:rgba(255,255,255,.5);
+}
+
+.selected {
+  color: #ffffff
+}
+
 .navbar {
   font-size: 1.15rem;
   font-weight: .1rem;
